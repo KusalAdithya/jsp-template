@@ -22,6 +22,14 @@ If you use freemarker, refer to [freemarker-template-inheritance](https://github
 </dependency>
 ```
 
+### Gradle dependencies
+
+```groovy
+dependencies {
+    implementation 'com.waka.template:jsp-template:1.0'
+}
+```
+
 ## Usage
 ### web.xml
 ```xml
