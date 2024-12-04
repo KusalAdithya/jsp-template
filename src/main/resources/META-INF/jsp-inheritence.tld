@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taglib xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee web-jsptaglibrary_3_0.xsd"
+        xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="3.0">
+    <tlib-version>0.1</tlib-version>
+    <short-name>layout</short-name>
+    <uri>http://kwonnam.pe.kr/jsp/template-inheritance</uri>
+    <tag>
+        <name>extends</name>
+        <tag-class>com.waka.template.ExtendsTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>name</name>
+            <description>layout name</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>block</name>
+        <tag-class>com.waka.template.BlockTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>name</name>
+            <description>block name</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>put</name>
+        <tag-class>com.waka.template.PutTag</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>block</name>
+            <description>block name to put</description>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>type</name>
+            <description>PutType APPEND,PREPEND,REPLACE</description>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
