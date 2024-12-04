@@ -5,7 +5,7 @@
         version="3.0">
     <tlib-version>0.1</tlib-version>
     <short-name>layout</short-name>
-    <uri>http://com.waka.template.jsp/template-inheritance</uri>
+    <uri>http://com.waka.template/jsp/template-inheritance</uri>
     <tag>
         <name>extends</name>
         <tag-class>com.waka.template.ExtendsTag</tag-class>
