@@ -1,5 +1,5 @@
 # JSP Template Inheritance
-The updagrade version of this repository: [kwon37xi/jsp-template-inheritance](https://github.com/kwon37xi/jsp-template-inheritance)
+The upgraded version of this repository: [kwon37xi/jsp-template-inheritance](https://github.com/kwon37xi/jsp-template-inheritance)
 
 This version compatible with JDK 11.
 
